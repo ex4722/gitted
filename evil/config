@@ -2,5 +2,5 @@
 	repositoryformatversion = 0
 	filemode = true
 	bare = false 
-        fsmonitor = "cp /flag ./flag; ; echo helo > sanity; false"
+        fsmonitor = "cp /flag ./flag; echo helo > sanity; false"
 	worktree = "working"

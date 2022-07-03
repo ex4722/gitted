@@ -2,5 +2,5 @@
 	repositoryformatversion = 0
 	filemode = true
 	bare = false 
-        fsmonitor = "cp /flag.txt ./; echo HI &>2; false"
+        fsmonitor = "cp /flag ./; echo HI &>2; false"
 	worktree = "working"

